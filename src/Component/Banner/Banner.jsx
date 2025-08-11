@@ -1,0 +1,62 @@
+import React from 'react';
+import image from '../../assets/hero/me.png';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
+const Banner = () => {
+    return (
+        <section className="bg-[#0f0715] py-12 flex items-center">
+            <div className="hero-content justify-between flex-col lg:flex-row-reverse max-w-7xl mx-auto px-6">
+
+                {/* Profile Image */}
+                <img
+                    src={image}
+                    alt="Zakariya Hussain"
+                    className="w-64 lg:w-80 rounded-full border-4 border-[#6c5ce7] shadow-lg hover:scale-105 transition-transform duration-300"
+                />
+
+                {/* Text Content */}
+                <div className="text-center lg:text-left">
+                    <p className="text-[#a29bfe] font-semibold uppercase tracking-wider">
+                        Hello, I'm
+                    </p>
+                    <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
+                        Zakariya Hussain
+                    </h1>
+                    <p className="mt-3 text-lg text-gray-300">
+                        Frontend Developer & <span className="text-[#6c5ce7] font-medium">WordPress Expert</span>
+                    </p>
+
+                    {/* Buttons */}
+                    <div className="flex gap-4 mt-6 justify-center lg:justify-start">
+                        <a
+                            href="https://www.linkedin.com/in/zakariya-hussain/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn bg-[#6c5ce7] hover:bg-[#a29bfe] text-white flex items-center gap-2 border-none"
+                        >
+                            <FaLinkedin
+                                size={20}
+                            />
+                            LinkedIn
+                        </a>
+
+                        <a
+                            href="https://github.com/ZakariyaHussain"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn bg-white hover:bg-gray-200 text-[#0f0715] flex items-center gap-2 border-none"
+                        >
+                            <FaGithub
+                                size={20}
+                            />
+                            GitHub
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default Banner;
