@@ -4,14 +4,14 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Banner = () => {
     return (
-        <section className="bg-[#0f0715] py-12 flex items-center">
+        <section className="bg-[#0f0715] h-[650px] py-16 flex items-center">
             <div className="hero-content justify-between flex-col lg:flex-row-reverse max-w-7xl mx-auto px-6">
 
                 {/* Profile Image */}
                 <img
                     src={image}
                     alt="Zakariya Hussain"
-                    className="w-64 lg:w-80 rounded-full border-4 border-[#6c5ce7] shadow-lg hover:scale-105 transition-transform duration-300"
+                    className="w-64 lg:w-86 rounded-full border-4 border-[#6c5ce7] shadow-lg hover:scale-105 transition-transform duration-300"
                 />
 
                 {/* Text Content */}
