@@ -8,6 +8,9 @@ import {
 } from "react-router";
 import Home from './Pages/Home/Home.jsx';
 import MainLayout from './Layout/MainLayout.jsx';
+import About from './Pages/About/About.jsx';
+import Contact from './Pages/Contact/Contact.jsx';
+import Project from './Pages/Project/Project.jsx';
 //import { path } from 'framer-motion/client';
 
 const router = createBrowserRouter([
@@ -19,6 +22,18 @@ const router = createBrowserRouter([
       {
         path: '/',
         Component: Home
+      },
+      {
+        path: '/about',
+        Component: About
+      },
+      {
+        path: '/project',
+        Component: Project
+      },
+      {
+        path: '/contact',
+        Component: Contact
       }
     ]
   },
