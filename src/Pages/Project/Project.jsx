@@ -1,7 +1,9 @@
 import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import image1 from "../../assets/projeect/screencapture-car-booking.png";
-import image2 from "../../assets/projeect/screencapture-grocery-shop.png";
+//import image1 from "../../assets/projeect/screencapture-car-booking.png";
+import image1 from "../../assets/projeect/car-booking.jpg";
+//import image2 from "../../assets/projeect/screencapture-grocery-shop.png";
+import image2 from "../../assets/projeect/grocery-shop.jpg";
 import image3 from "../../assets/projeect/screencapture-dev-board.png";
 
 const projects = [
@@ -36,7 +38,7 @@ const projects = [
 
 const Project = () => {
     return (
-        <div id="project" className="py-16 bg-[#0f0c1a]">
+        <div id="projects" className="py-16 bg-[#0f0c1a]">
             <h2 className="text-4xl font-bold text-purple-400 text-center mb-12">
                 My Projects
             </h2>

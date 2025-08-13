@@ -1,5 +1,6 @@
 import React from 'react';
 import image from '../../assets/hero/me.png';
+//import image from '../../assets/hero/zakariya.jpg';
 import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Banner = () => {
@@ -12,7 +13,7 @@ const Banner = () => {
                     <img
                         src={image}
                         alt="Zakariya Hussain"
-                        className="w-64 h-64 rounded-full border-4 border-[#6c5ce7] shadow-lg hover:scale-105 transition-transform duration-300"
+                        className="w-80 rounded-full border-4 border-[#6c5ce7] shadow-lg hover:scale-105 transition-transform duration-300"
                     />
                 </div>
 
@@ -25,7 +26,7 @@ const Banner = () => {
                         Zakariya Hussain
                     </h1>
                     <p className="mt-3 text-lg text-gray-300">
-                        Frontend Developer & <span className="text-[#6c5ce7] font-medium">WordPress Expert</span>
+                        MERN Stack Developer & <span className="text-[#6c5ce7] font-medium">WordPress Expert</span>
                     </p>
 
                     {/* Buttons */}
