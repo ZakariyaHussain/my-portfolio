@@ -1,12 +1,42 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **personal portfolio website** built with **React**, **Tailwind CSS**, and **DaisyUI**.  
+Showcases my skills, projects, and experience — with an interactive contact section and a professional UI design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+![Portfolio Preview](./src/assets/my-portfolio.jpg)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- **Modern UI** using Tailwind CSS + DaisyUI  
+- **Responsive Design** (mobile-friendly)  
+- **Smooth Scroll** navigation  
+- **Projects Showcase** with GitHub & Live links  
+- **Skills Section** (Frontend, Backend, Tools)  
+- **Experience Section** with timeline  
+- **Contact Section** with WhatsApp and Email links  
+- **Download CV** button  
+- **Footer with Social Links**
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- React.js
+- Tailwind CSS
+- DaisyUI
+- React Icons
+
+**Deployment**
+- Netlify
+
+---
+
+## 📂 Folder Structure
+
