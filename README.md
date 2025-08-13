@@ -36,7 +36,3 @@ Showcases my skills, projects, and experience — with an interactive contact se
 **Deployment**
 - Netlify
 
----
-
-## 📂 Folder Structure
-
