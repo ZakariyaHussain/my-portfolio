@@ -8,13 +8,7 @@ import {
     FaGitAlt,
     FaNodeJs,
 } from "react-icons/fa";
-import {
-    SiExpress,
-    SiMongodb,
-    SiFirebase,
-    SiTailwindcss,
-    SiDaisyui,
-} from "react-icons/si";
+import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiDaisyui } from "react-icons/si";
 
 const skills = [
     { icon: <FaHtml5 size={40} className="text-orange-500" />, name: "HTML5" },
@@ -34,17 +28,22 @@ const skills = [
 const Skills = () => {
     return (
         <section className="py-16 bg-[#0f0c1a]">
-            <h2 className="text-4xl font-bold text-purple-400 text-center mb-12">My Skills</h2>
-            <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8">
-                {skills.map((skill, i) => (
-                    <div
-                        key={i}
-                        className="bg-[#1f1530] rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-purple-500/40 hover:-translate-y-1 hover:scale-105 transform transition-all duration-300 cursor-pointer"
-                    >
-                        <div className="mb-4">{skill.icon}</div>
-                        <p className="text-white font-semibold">{skill.name}</p>
-                    </div>
-                ))}
+            <h2 className="text-4xl md:text-5xl font-bold text-purple-400 text-center mb-12">
+                My Skills
+            </h2>
+
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-4 sm:gap-x-6 gap-y-6">
+                    {skills.map((skill, i) => (
+                        <div
+                            key={i}
+                            className="bg-[#1f1530] rounded-xl shadow-lg p-4 sm:p-6 flex flex-col items-center text-center hover:shadow-purple-500/40 hover:-translate-y-1 hover:scale-105 transform transition-all duration-300 cursor-pointer"
+                        >
+                            <div className="mb-3 sm:mb-4">{skill.icon}</div>
+                            <p className="text-white font-semibold text-sm sm:text-base">{skill.name}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
         </section>
     );

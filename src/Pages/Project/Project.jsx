@@ -1,8 +1,6 @@
 import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-//import image1 from "../../assets/projeect/screencapture-car-booking.png";
 import image1 from "../../assets/projeect/car-booking.jpg";
-//import image2 from "../../assets/projeect/screencapture-grocery-shop.png";
 import image2 from "../../assets/projeect/grocery-shop.jpg";
 import image3 from "../../assets/projeect/screencapture-dev-board.png";
 
@@ -38,49 +36,49 @@ const projects = [
 
 const Project = () => {
     return (
-        <div id="projects" className="py-16 bg-[#0f0c1a]">
+        <div id="projects" className="py-16 bg-[#0f0c1a] px-4 sm:px-6 lg:px-8">
             <h2 className="text-4xl font-bold text-purple-400 text-center mb-12">
                 My Projects
             </h2>
 
-            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className="bg-[#1f1530] rounded-xl shadow-lg hover:shadow-purple-500/30 overflow-hidden hover:-translate-y-1 hover:scale-105 transform transition-all duration-300 ease-out"
+                        className="bg-[#1f1530] rounded-xl shadow-lg hover:shadow-purple-500/30 overflow-hidden hover:-translate-y-1 hover:scale-105 transform transition-all duration-300 ease-out flex flex-col"
                     >
                         {/* Project Image */}
-                        <img
-                            src={project.image}
-                            alt={project.name}
-                            className="w-full h-48 object-cover"
-                        />
+                        <div className="w-full h-48 sm:h-56 overflow-hidden">
+                            <img
+                                src={project.image}
+                                alt={project.name}
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
 
                         {/* Content */}
-                        <div className="p-6 flex flex-col justify-between h-[300px]">
-                            <div>
-                                <h3 className="text-xl font-semibold text-white mb-2">
-                                    {project.name}
-                                </h3>
-                                <p className="text-gray-300 text-sm mb-4">
-                                    {project.description}
-                                </p>
+                        <div className="p-6 flex flex-col flex-grow">
+                            <h3 className="text-xl font-semibold text-white mb-2">
+                                {project.name}
+                            </h3>
+                            <p className="text-gray-300 text-sm mb-4 flex-grow">
+                                {project.description}
+                            </p>
 
-                                {/* Tech Stack */}
-                                <div className="flex flex-wrap gap-2 mb-4">
-                                    {project.tech.map((tech, idx) => (
-                                        <span
-                                            key={idx}
-                                            className="bg-purple-900/40 text-purple-300 px-3 py-1 rounded-full text-xs"
-                                        >
-                                            {tech}
-                                        </span>
-                                    ))}
-                                </div>
+                            {/* Tech Stack */}
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {project.tech.map((tech, idx) => (
+                                    <span
+                                        key={idx}
+                                        className="bg-purple-900/40 text-purple-300 px-3 py-1 rounded-full text-xs"
+                                    >
+                                        {tech}
+                                    </span>
+                                ))}
                             </div>
 
                             {/* Links */}
-                            <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-4 mt-auto">
                                 {project.github && (
                                     <a
                                         href={project.github}

@@ -3,9 +3,9 @@ import { FaCalendarAlt } from "react-icons/fa";
 
 const experiences = [
     {
-        role: "WordPress Developer (Contractual)",
+        role: "WordPress Developer (Remote)",
         company: "Freedom IT Institutions",
-        duration: "Jan 2024 - Present",
+        duration: "Jan 2024 - Mar 2025",
         description:
             "Customized WordPress themes and developed custom code using HTML, CSS, and JavaScript.",
     },
@@ -35,7 +35,7 @@ const experiences = [
 const Experience = () => {
     return (
         <section className="bg-[#0f0c1a] py-20 min-h-screen">
-            <div className="max-w-6xl mx-auto px-6 text-white">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 text-white">
                 <h2 className="text-4xl font-bold text-purple-400 mb-12 text-center">
                     My Experience
                 </h2>
@@ -44,20 +44,23 @@ const Experience = () => {
                     {experiences.map((exp, index) => (
                         <div
                             key={index}
-                            className="bg-[#1f1530] rounded-xl p-6 shadow-lg hover:shadow-purple-500/40 transition-shadow duration-300"
+                            className="bg-[#1f1530] border-l-4 border-purple-500 rounded-r-xl p-6 shadow-lg hover:shadow-purple-500/40 hover:-translate-y-1 hover:scale-[1.01] transition-all duration-300"
                         >
-                            <div className="flex items-center gap-4 mb-2">
-                                <h3 className="text-xl font-semibold">{exp.role}</h3>
-                            </div>
+                            <h3 className="text-xl font-semibold text-white">
+                                {exp.role}
+                            </h3>
+                            <h4 className="text-purple-300 font-medium mb-3">
+                                {exp.company}
+                            </h4>
 
-                            <p className="text-purple-300 font-medium mb-4">{exp.company}</p>
-
-                            <div className="flex items-center gap-2 text-gray-400 mb-4">
+                            <div className="flex items-center gap-2 text-gray-400 mb-4 text-sm">
                                 <FaCalendarAlt aria-label="Duration" />
                                 <span>{exp.duration}</span>
                             </div>
 
-                            <p className="text-gray-300 leading-relaxed">{exp.description}</p>
+                            <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
+                                {exp.description}
+                            </p>
                         </div>
                     ))}
                 </div>

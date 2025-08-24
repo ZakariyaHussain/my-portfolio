@@ -119,7 +119,7 @@ const Navbar = () => {
 
             <div className="navbar-end">
                 <a
-                    href="https://drive.google.com/file/d/1Lu1agsbyBzV1PhsHnxs6gKphIeTxyk77/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1QdFuooGqimRoL8lB4Aduh6KFQlzbqMED/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
                     download
