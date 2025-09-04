@@ -34,7 +34,34 @@ const Banner = () => {
 
                     {/* Buttons */}
                     <div className="flex flex-wrap gap-4 mt-6 justify-center lg:justify-start">
-                        {/* LinkedIn, GitHub, CV Buttons */}
+                        <a
+                            href="https://www.linkedin.com/in/zakariya-hussain/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn bg-[#6c5ce7] hover:bg-[#a29bfe] text-white flex items-center gap-2 border-none"
+                        >
+                            <FaLinkedin size={20} />
+                            LinkedIn
+                        </a>
+
+                        <a
+                            href="https://github.com/ZakariyaHussain"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn bg-white hover:bg-gray-200 text-[#0f0715] flex items-center gap-2 border-none"
+                        >
+                            <FaGithub size={20} />
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://drive.google.com/uc?export=download&id=12W_NqTDZqAvQ4Osnn6p9OyryvkGeW5eI"
+                            download
+                            className="btn bg-[#6c5ce7] hover:bg-[#a29bfe] text-white flex items-center gap-2 border-none"
+                        >
+                            <FaDownload size={20} />
+                            Download CV
+                        </a>
                     </div>
                 </div>
             </div>
