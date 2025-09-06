@@ -1,11 +1,10 @@
 import React from 'react';
 import image from '../../assets/hero/me.png';
-//import image from '../../assets/hero/zakariya.jpg';
 import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Banner = () => {
     return (
-        <section className="bg-[#0f0715] min-h-screen flex items-center pt-20">
+        <section id="banner" className="bg-[#0f0715] min-h-screen flex pt-20">
             <div className="flex flex-col lg:flex-row-reverse items-center justify-center gap-12 mx-auto max-w-7xl w-full px-6">
 
                 {/* Profile Image */}

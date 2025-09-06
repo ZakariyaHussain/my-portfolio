@@ -34,7 +34,7 @@ const experiences = [
 
 const Experience = () => {
     return (
-        <section className="bg-[#0f0c1a] py-20 min-h-screen">
+        <section className="bg-[#0f0c1a] py-20">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 text-white">
                 <h2 className="text-4xl font-bold text-purple-400 mb-12 text-center">
                     My Experience

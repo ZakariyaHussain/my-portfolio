@@ -3,7 +3,7 @@ import { FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <div id="contact" className="py-16 bg-[#0f0c1a]">
+        <section id="contact" className="py-16 bg-[#0f0c1a]">
             <h2 className="text-4xl font-bold text-purple-400 text-center mb-12">
                 Contact Me
             </h2>
@@ -21,16 +21,16 @@ const Contact = () => {
 
                     <div className="space-y-4">
                         <div className="flex items-center gap-4">
-                            <FaEnvelope className="text-purple-300 text-xl" aria-label="Email" />
+                            <FaEnvelope className="text-purple-300 text-xl" />
                             <span>zakariyahussain1989@gmail.com</span>
                         </div>
                         <div className="flex items-center gap-4">
-                            <FaWhatsapp className="text-green-400 text-xl" aria-label="WhatsApp" />
+                            <FaWhatsapp className="text-green-400 text-xl" />
                             <span>+880 1712337609</span>
                         </div>
                         <div className="flex items-center gap-4">
-                            <FaMapMarkerAlt className="text-purple-300 text-xl" aria-label="Location" />
-                            <span>Gazipur, Bangladesh</span>
+                            <FaMapMarkerAlt className="text-purple-300 text-xl" />
+                            <span>Natore, Bangladesh</span>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
