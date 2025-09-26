@@ -7,7 +7,7 @@ Showcases my skills, projects, and experience — with an interactive contact se
 
 ## 📸 Preview
 
-![Portfolio Preview](./src/assets/my-portfolio.jpg)
+![Portfolio Preview](./src/assets/portfolio.jpg)
 
 ---
 
