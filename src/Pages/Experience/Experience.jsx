@@ -3,11 +3,19 @@ import { FaCalendarAlt } from "react-icons/fa";
 
 const experiences = [
     {
-        role: "WordPress Developer (Remote)",
-        company: "Freedom IT Institutions",
-        duration: "Jan 2024 - Mar 2025",
+        role: "MERN Stack Developer",
+        company: "Freelance",
+        duration: "Jan 2025 - Continue",
         description:
-            "Customized WordPress themes and developed custom code using HTML, CSS, and JavaScript.",
+                "Developed MERN stack applications using React.js, Express.js, Node.js, and MongoDB. Built a multi-vendor medicine store with secure payment integration and sales reporting. Designed a car rental booking system with real-time availability and online payments.",
+            
+    },
+    {
+        role: "WordPress Developer",
+        company: "Freelance",
+        duration: "Jan 2022 - Mar 2025",
+        description:
+            "Customized WordPress themes and developed client websites with Elementor Pro.",
     },
     {
         role: "Engineer (Maintenance)",
