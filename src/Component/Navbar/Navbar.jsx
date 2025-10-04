@@ -56,8 +56,8 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case text-xl text-white">
-                    <img src="logo.png" alt="logo" className="w-35 h-12" />
+                <Link to="/" className="text-xl text-white">
+                    <img src="logo.png" alt="logo" className="w-25 h-15" />
                 </Link>
             </div>
 

@@ -11,7 +11,7 @@ const Footer = () => {
                     <img
                         src="logo.png"
                         alt="Logo"
-                        className="w-36 h-16 object-contain mx-auto md:mx-0"
+                        className="w-25 h-15 mx-auto md:mx-0"
                     />
                     <p className="text-sm text-gray-500 mt-2">
                         © {new Date().getFullYear()} All rights reserved.
