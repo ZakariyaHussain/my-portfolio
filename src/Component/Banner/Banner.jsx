@@ -23,12 +23,10 @@ const Banner = () => {
                         Zakariya Hussain
                     </h1>
                     <p className="mt-3 text-lg text-gray-300">
-                        MERN Stack Developer & <span className="text-[#6c5ce7] font-medium">WordPress Expert</span>
+                        WordPress Developer | <span className="text-[#6c5ce7] font-medium">Frontend Developer</span>
                     </p>
                     <p className="mt-4 text-gray-400 max-w-xl leading-relaxed">
-                        I build modern web applications with React, TailwindCSS, Node.js, and MongoDB.
-                        With strong expertise in WordPress, I deliver responsive, user-friendly websites
-                        tailored to client needs.
+                        I build and maintain WordPress websites using Elementor and develop responsive web interfaces with HTML, CSS, JavaScript, and React.
                     </p>
 
                     {/* Buttons */}

@@ -1,4 +1,4 @@
-import { FaCode, FaLaptopCode, FaReact, FaWordpress } from "react-icons/fa";
+import { FaCode, FaReact, FaShoppingCart, FaWordpress } from "react-icons/fa";
 
 const About = () => {
     return (
@@ -18,23 +18,21 @@ const About = () => {
                         {/* Technical Expertise */}
                         <span className="flex items-start gap-3">
                             <span>
-                                <span className="font-semibold">Technical Expertise:</span> Professional Frontend Web Developer skilled in HTML, CSS, JavaScript, React, Tailwind CSS, and WordPress development. Experienced in building custom-coded projects and managing WordPress CMS solutions.
+                                <span className="font-semibold">Professional Background:</span> I am a Web Developer with hands-on experience in WordPress development and frontend technologies. Currently, I work at the Academy of Business Professionals (ABP), where I develop, manage, and maintain WordPress-based websites.
                             </span>
                         </span>
 
                         {/* Career Achievements */}
                         <span className="flex items-start gap-3">
                             <span>
-                                <span className="font-semibold">Career Achievements:</span> Delivered{" "}
-                                <span className="text-[#6c5ce7] font-medium">300+ WordPress projects</span> and{" "}
-                                <span className="text-[#6c5ce7] font-medium">50+ custom-coded websites</span> with a focus on responsive and user-friendly design. Successfully blended engineering knowledge with web development skills to deliver scalable and maintainable solutions.
+                                <span className="font-semibold">WordPress Experience:</span> My work includes customizing existing WordPress websites, creating and updating pages with Elementor Pro, managing online courses using MasterStudy LMS, and handling products and orders through WooCommerce. I also work with LMS configurations, Elementor templates, and form integrations.
                             </span>
                         </span>
 
                         {/* Passion & Goals */}
                         <span className="flex items-start gap-3">
                             <span>
-                                <span className="font-semibold">Passion & Goals:</span> Passionate about creating seamless, modern web experiences that empower businesses and users. Dedicated to continuous learning and growth in frontend technologies and WordPress ecosystems. Aiming to contribute to innovative web projects that make a difference.
+                                <span className="font-semibold">Frontend Development & Learning:</span> Alongside WordPress, I have experience working with HTML, CSS, JavaScript, Tailwind CSS, and React. I have also developed personal projects using the MERN stack. With an academic background in Electrical and Electronic Engineering, I bring a problem-solving mindset to web development and continuously work on improving my technical skills.
                             </span>
                         </span>
                     </p>
@@ -43,24 +41,24 @@ const About = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full lg:w-1/2">
                         {[
                             {
-                                icon: <FaCode size={40} className="text-[#6c5ce7] mx-auto mb-4" />,
-                                title: "Clean Coding",
-                                desc: "Writing maintainable and scalable code with best practices.",
+                                icon: <FaWordpress size={40} className="text-[#6c5ce7] mx-auto mb-4" />,
+                                title: "WordPress & Elementor",
+                                desc: "Customizing WordPress websites and creating responsive pages with Elementor Pro.",
                             },
                             {
-                                icon: <FaReact size={40} className="text-[#61dafb] mx-auto mb-4" />,
+                                icon: <FaShoppingCart size={40} className="text-[#61dafb] mx-auto mb-4" />,
+                                title: "LMS & WooCommerce",
+                                desc: "Managing online courses, quizzes, products, and orders.",
+                            },
+                            {
+                                icon: <FaCode size={40} className="text-[#21759b] mx-auto mb-4" />,
+                                title: "Frontend Development",
+                                desc: "Working with HTML, CSS, JavaScript, and Tailwind CSS to build responsive interfaces.",
+                            },
+                            {
+                                icon: <FaReact size={40} className="text-[#ff9f43] mx-auto mb-4" />,
                                 title: "React Development",
-                                desc: "Building dynamic and interactive web applications with React.",
-                            },
-                            {
-                                icon: <FaWordpress size={40} className="text-[#21759b] mx-auto mb-4" />,
-                                title: "WordPress Solutions",
-                                desc: "Custom themes, plugins, and CMS solutions.",
-                            },
-                            {
-                                icon: <FaLaptopCode size={40} className="text-[#ff9f43] mx-auto mb-4" />,
-                                title: "Responsive Design",
-                                desc: "Ensuring a seamless experience across all devices.",
+                                desc: "Developing interactive user interfaces and personal projects using React.",
                             },
                         ].map((skill, i) => (
                             <div
