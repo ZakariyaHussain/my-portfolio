@@ -2,32 +2,25 @@ import React from "react";
 import { FaCalendarAlt } from "react-icons/fa";
 
 const experiences = [
+    
     {
-        role: "MERN Stack Developer",
-        company: "Freelance",
-        duration: "Jan 2025 - Continue",
+        role: "Web Developer",
+        company: "Academy of Business Professionals (ABP)",
+        duration: "January 2026 – Present",
         description:
-                "Developed MERN stack applications using React.js, Express.js, Node.js, and MongoDB. Built a multi-vendor medicine store with secure payment integration and sales reporting. Designed a car rental booking system with real-time availability and online payments.",
-            
-    },
-    {
-        role: "WordPress Developer",
-        company: "Freelance",
-        duration: "Jan 2022 - Mar 2025",
-        description:
-            "Customized WordPress themes and developed client websites with Elementor Pro.",
+            "Developing and maintaining WordPress-based websites using Elementor Pro, WooCommerce, MasterStudy LMS, and WoodMart. Creating and customizing course pages, landing pages, and website layouts. Integrating Fluent Forms and WooCommerce with Google Sheets for automated form data and order management. Configuring LMS quizzes with randomized questions, time limits, and attempt restrictions. Managing products, orders, and course content, implementing workflow automation, optimizing website speed and performance, and improving website functionality through custom solutions and third-party integrations.",
     },
     {
         role: "Engineer (Maintenance)",
         company: "Arfan CNG Re-Fueling Station Ltd.",
-        duration: "Jan 2020 - Present",
+        duration: "August 2020 – March 2025",
         description:
             "Maintained and troubleshot gas generators, diesel generators, compressors, motor controls, PLCs, and electrical wiring.",
     },
     {
         role: "Assistant Manager (Sales & Marketing)",
         company: "Power Distribution Engineering Ltd. (PDEL)",
-        duration: "Mar 2019 - Dec 2019",
+        duration: "March 2019 – July 2020",
         description:
             "Managed sales of electrical panels (DB, SDB, MDB), cable trays, Busbar Trunking Systems (BBT), substations, spare components, and various circuit breakers (MCB, MCCB, ACB).",
     },
