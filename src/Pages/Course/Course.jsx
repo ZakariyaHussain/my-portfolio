@@ -20,7 +20,6 @@ const courses = [
         instituteName: "Atish Dipankar University Of Science & Technology",
         duration: "4 Years",
     },
-    // Add more courses here
 ];
 
 const Course = () => {
