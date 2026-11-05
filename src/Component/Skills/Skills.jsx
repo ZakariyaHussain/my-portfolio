@@ -1,8 +1,6 @@
 import React from "react";
 import {
     FaWordpress,
-    FaPlug,
-    FaStar,
     FaShoppingCart,
     FaGraduationCap,
     FaStore,
@@ -12,23 +10,20 @@ import {
     FaJsSquare,
     FaReact,
     FaNodeJs,
-    FaDatabase,
-    FaServer,
-    FaFire,
     FaCode,
     FaGitAlt,
     FaGithub,
     FaTable,
 } from "react-icons/fa";
-import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiDaisyui } from "react-icons/si";
+import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiDaisyui, SiElementor } from "react-icons/si";
 
 const skillsSet = [
   {
     category: "WordPress & CMS",
     skills: [
       { icon: <FaWordpress size={40} className="text-[#21759B]" />, name: "WordPress" },
-      { icon: <FaPlug size={40} className="text-[#d72b5c]" />, name: "Elementor" },
-      { icon: <FaStar size={40} className="text-[#f59e0b]" />, name: "Elementor Pro" },
+      { icon: <SiElementor size={40} className="text-[#d72b5c]" />, name: "Elementor" },
+      { icon: <SiElementor size={40} className="text-[#f59e0b]" />, name: "Elementor Pro" },
       { icon: <FaShoppingCart size={40} className="text-[#96588A]" />, name: "WooCommerce" },
       { icon: <FaGraduationCap size={40} className="text-[#10b981]" />, name: "MasterStudy LMS" },
       { icon: <FaStore size={40} className="text-[#ff5722]" />, name: "WoodMart" },
@@ -42,17 +37,17 @@ const skillsSet = [
       { icon: <FaCss3Alt size={40} className="text-[#1572B6]" />, name: "CSS3" },
       { icon: <FaJsSquare size={40} className="text-[#F7DF1E]" />, name: "JavaScript (ES6+)" },
       { icon: <FaReact size={40} className="text-[#61DAFB]" />, name: "React.js" },
-      { icon: <FaCode size={40} className="text-[#06B6D4]" />, name: "Tailwind CSS" },
-      { icon: <FaReact size={40} className="text-[#1AD1A5]" />, name: "DaisyUI" },
+      { icon: <SiTailwindcss size={40} className="text-[#06B6D4]" />, name: "Tailwind CSS" },
+      { icon: <SiDaisyui size={40} className="text-[#1AD1A5]" />, name: "DaisyUI" },
     ],
   },
   {
     category: "Backend & Database",
     skills: [
       { icon: <FaNodeJs size={40} className="text-[#5FA04E]" />, name: "Node.js" },
-      { icon: <FaServer size={40} className="text-gray-300" />, name: "Express.js" },
-      { icon: <FaDatabase size={40} className="text-[#47A248]" />, name: "MongoDB" },
-      { icon: <FaFire size={40} className="text-[#FFCA28]" />, name: "Firebase" },
+      { icon: <SiExpress size={40} className="text-gray-300" />, name: "Express.js" },
+      { icon: <SiMongodb size={40} className="text-[#47A248]" />, name: "MongoDB" },
+      { icon: <SiFirebase size={40} className="text-[#FFCA28]" />, name: "Firebase" },
       { icon: <FaCode size={40} className="text-[#009688]" />, name: "REST API" },
     ],
   },
