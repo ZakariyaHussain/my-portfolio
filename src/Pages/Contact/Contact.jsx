@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 import { FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: "",
+    });
+
+    const [isSending, setIsSending] = useState(false);
+    const [status, setStatus] = useState("");
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        console.log("Form Data :", formData);
+    }
     return (
         <section id="contact" className="py-16 bg-[#0f0c1a]">
             <h2 className="text-4xl font-bold text-purple-400 text-center mb-12">
@@ -40,22 +55,31 @@ const Contact = () => {
                     <h3 className="text-2xl font-semibold mb-6 text-purple-300">
                         Send a Message
                     </h3>
-                    <form className="space-y-4">
+                    <form onSubmit={handleSubmit} className="space-y-4">
                         <input
                             type="text"
+                            name="name"
                             placeholder="Your Name"
+                            value={formData.name}
+                            onChange={(e) => setFormData({...formData, name: e.target.value})}
                             required
                             className="w-full px-4 py-2 rounded-lg bg-[#2a1f40] text-white focus:outline-none focus:ring-2 focus:ring-purple-400"
                         />
                         <input
                             type="email"
+                            name="email"
                             placeholder="Your Email"
+                            value={formData.email}
+                            onChange={(e) => setFormData({...formData, email: e.target.value})}
                             required
                             className="w-full px-4 py-2 rounded-lg bg-[#2a1f40] text-white focus:outline-none focus:ring-2 focus:ring-purple-400"
                         />
                         <textarea
+                            name="message"
                             placeholder="Your Message"
                             rows="4"
+                            value={formData.message}
+                            onChange={(e) => setFormData({...formData, message: e.target.value})}
                             required
                             className="w-full px-4 py-2 rounded-lg bg-[#2a1f40] text-white focus:outline-none focus:ring-2 focus:ring-purple-400"
                         ></textarea>
